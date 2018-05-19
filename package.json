@@ -1,6 +1,6 @@
 {
   "name": "tokamak",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Small and Fast Socket and HTTP module for node.js",
   "main": "index.js",
   "directories": {
