@@ -1,0 +1,20 @@
+{
+  "name": "tokamak",
+  "version": "1.0.0",
+  "description": "Small and Fast Socket and HTTP module for node.js",
+  "main": "index.js",
+  "directories": {
+    "src": "src"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec --bail test/spec.js",
+    "build": "node-gyp rebuild"
+  },
+  "author": "Andrew Johnston <github.com/billywhizz>",
+  "license": "ISC",
+  "gypfile": true,
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  }
+}
